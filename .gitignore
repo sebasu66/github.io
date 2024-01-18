@@ -128,3 +128,13 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+#games specific resources
+LGS/GAMES/*
+!LGS/GAMES/
+
+#ignore subfolders under asset_importer folder but not the folder itself and its files
+!asset_importer/
+asset_importer/*
+
+LGS/asset_importer/*/
